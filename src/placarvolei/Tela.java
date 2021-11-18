@@ -39,7 +39,6 @@ public class Tela extends javax.swing.JFrame {
         Pontos2 = new javax.swing.JLabel();
         setTime2 = new javax.swing.JLabel();
         setTime1 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
@@ -63,8 +62,6 @@ public class Tela extends javax.swing.JFrame {
         setTime2.setText("0");
 
         setTime1.setText("0");
-
-        jButton1.setText("Iniciar Partida");
 
         jButton2.setText("Ponto Time 2");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -117,9 +114,6 @@ public class Tela extends javax.swing.JFrame {
                                 .addGap(18, 18, 18)))
                         .addComponent(setTime2))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(145, 145, 145)
-                        .addComponent(jButton1))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(34, 34, 34)
                         .addComponent(labelVencedor, javax.swing.GroupLayout.PREFERRED_SIZE, 312, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(54, Short.MAX_VALUE))
@@ -151,9 +145,7 @@ public class Tela extends javax.swing.JFrame {
                     .addComponent(jButton3))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(labelVencedor, javax.swing.GroupLayout.DEFAULT_SIZE, 15, Short.MAX_VALUE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton1)
-                .addContainerGap())
+                .addGap(40, 40, 40))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -224,7 +216,6 @@ public class Tela extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel Pontos1;
     private javax.swing.JLabel Pontos2;
-    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
